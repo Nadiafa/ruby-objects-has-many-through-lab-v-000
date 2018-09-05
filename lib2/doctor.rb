@@ -21,6 +21,6 @@ class Doctor
   end
   
   def patients
-    appointments.select { |a| a.patient }
+    appointments.find { |a| a.patient }
   end
 end 
