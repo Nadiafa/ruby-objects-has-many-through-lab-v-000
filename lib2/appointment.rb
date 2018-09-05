@@ -1,7 +1,6 @@
 # rspec spec/05_appointment_spec.rb
 class Appointment 
-  attr_accessor :date 
-  attr_reader :patient, :doctor
+  attr_accessor :date, :patient, :doctor
   @@all = []
 
   def self.all 
