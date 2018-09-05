@@ -1,6 +1,6 @@
 # rspec spec/05_appointment_spec.rb
 class Appointment 
-  attr_accessor :date, :doctor, :patient
+  attr_accessor :patient, :doctor, :date
   @@all = []
 
   def self.all 
@@ -8,9 +8,9 @@ class Appointment
   end
   
   def initialize(patient, doctor, date)
-    @date = date 
-    @doctor = doctor
     @patient = patient
+    @doctor = doctor
+    @date = date 
     @@all << self
   end
 
