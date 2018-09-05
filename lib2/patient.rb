@@ -20,13 +20,3 @@ class Patient
     appointments.map { |a| a.doctor }
   end
 end 
-
-# class Genre
-
-#   def songs
-#     Song.all{|song| song.genre == self}
-#   end
-#   def artists
-#     songs.map{|song| song.artist}
-#   end
-# end
