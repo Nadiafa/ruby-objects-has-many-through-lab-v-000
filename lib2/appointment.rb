@@ -2,6 +2,10 @@
 class Appointment 
   attr_accessor :date 
   @@all = []
+
+  def self.all 
+    @@all 
+  end
   
   
   
