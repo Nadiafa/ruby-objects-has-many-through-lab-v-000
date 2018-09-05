@@ -7,7 +7,7 @@ class Appointment
     @@all 
   end
   
-  def initialize(date,doctor, patient)
+  def initialize(date, doctor, patient)
     @patient = patient
     @doctor = doctor
     @date = date 
@@ -15,21 +15,3 @@ class Appointment
   end
 
 end 
-
-
-# class Song 
-#   attr_accessor :name, :artist, :genre
-#   @@all = []
-  
-#   def initialize(name, artist, genre)
-#     @name = name
-#     @artist = artist
-#     @genre = genre
-#     @@all << self 
-#   end
-  
-#   def self.all 
-#     @@all
-#   end 
-
-# end
