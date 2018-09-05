@@ -6,13 +6,10 @@ class Patient
   def self.all
     @@all 
   end 
+  
   def initialize(name)
     @name = name
     @@all << self
-  end 
-  
-  def new_appointment(doctor, date)
-    Appointment.new(date, doctor, self)
   end 
   
   def appointments
@@ -25,16 +22,7 @@ class Patient
 end 
 
 # class Genre
-#   attr_accessor :name
-#   @@all = []
- 
-#   def self.all
-#     @@all 
-#   end 
-#   def initialize(name)
-#     @name = name
-#     @@all << self
-#   end
+
 #   def songs
 #     Song.all{|song| song.genre == self}
 #   end
