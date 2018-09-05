@@ -1,4 +1,3 @@
-# rspec spec/04_doctor_spec.rb
 class Doctor 
   attr_accessor :name 
   @@all = []
@@ -23,4 +22,5 @@ class Doctor
   def patients
     appointments.map { |a| a.patient }
   end
+  
 end 
