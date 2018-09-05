@@ -1,4 +1,3 @@
-# rspec spec/05_appointment_spec.rb
 class Appointment 
   attr_accessor :patient, :doctor, :date
   @@all = []
