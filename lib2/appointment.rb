@@ -1,6 +1,6 @@
 # rspec spec/05_appointment_spec.rb
 class Appointment 
-  attr_accessor :date, :patient, :doctor
+  attr_accessor :date, :doctor, :patient
   @@all = []
 
   def self.all 
@@ -15,3 +15,21 @@ class Appointment
   end
 
 end 
+
+
+# class Song 
+#   attr_accessor :name, :artist, :genre
+#   @@all = []
+  
+#   def initialize(name, artist, genre)
+#     @name = name
+#     @artist = artist
+#     @genre = genre
+#     @@all << self 
+#   end
+  
+#   def self.all 
+#     @@all
+#   end 
+
+# end
